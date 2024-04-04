@@ -25,9 +25,9 @@ def private_panel(_):
         ],
         [InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper")],
         [
-            InlineKeyboardButton(text="New Movies", url= config.NEW_MOVIE),
-            InlineKeyboardButton(text="Bot Update", url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text="Anime Unity", url= config.NEW_MOVIE),
+            InlineKeyboardButton(text="Our Network", url=config.SUPPORT_CHANNEL),
         ],
-        [InlineKeyboardButton(text="Movie Search Group", url=config.SUPPORT_GROUP)],
+        [InlineKeyboardButton(text="Anime Chat Group", url=config.SUPPORT_GROUP)],
     ]
     return buttons
