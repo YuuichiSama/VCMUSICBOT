@@ -159,8 +159,8 @@ async def gen_thumb(videoid):
     play_icons = play_icons.resize((580, 62))
     background.paste(play_icons, (text_x_position, 450), play_icons)
 
-    # Add the text "join @love_life_si" to the thumbnail image
-    join_text = "Join @love_life_si"
+    # Add the text "join @WEEBSUNITY" to the thumbnail image
+    join_text = "Join @WEEBSUNITY"
     fontt = ImageFont.truetype("AviaxMusic/assets/font.ttf", 50)
     text_size = draw.textsize(join_text, font=fontt)
     text_position = ((1280 - text_size[0]) / 2, 600)  # Centered horizontally, slightly lower
